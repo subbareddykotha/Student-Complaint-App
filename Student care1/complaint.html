@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/complaint.css">
+</head>
+<body>
+  
+        <nav id="nav-bar">
+
+            <div class="logo">
+                <img src="images/logo (1).png" id="home-logo" alt="Student Care-img">
+            </div>
+            <div class="items" >
+                <ul>
+                    <li id="dec"><a class="hm" href="index.html">HOme</a></li>
+                    <li><a class="hm" href="about.html">About</a></li>
+                    <li><a href="#SERVICES" class="hm">Services</a></li>
+                    <li><a href="#FOOTER" class="hm">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="complaint-form">
+            <div class="desc">
+                <div class="cf">
+                    <h1>Complaint form  </h1>
+                    <p>Fill THis form to provide information  about your queries</p>
+                </div>
+            </div>
+            <div class="frm">
+                <div class="inp">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="First and Last" required>
+                </div>
+                <div class="inp">
+                    <label>Email Address</label>
+                    <input type="email" placeholder="email.@domain" required>
+                </div>
+                <div class="inp">
+                    <label>Phone Number</label>
+                    <input type="text" placeholder="9999999999" required>
+                </div>
+                <div class="inp">
+                    <label>Block & Room No</label>
+                    <input type="text" placeholder="J & 204" required>
+                </div>
+                <div class="inp">
+                    <label>Service Type</label>
+                    <select id="service" name="cars" required>
+                        <option value="Electrical">Electrical</option>
+                        <option value="Mess">Mess</option>
+                        <option value="library">library</option>
+                        <option value="plumbing">plumbing</option>
+                        <option value="Hospital">Hospital</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </div>
+                <div class="inp">
+                        <label>Complaint</label>
+                       <textarea id="Describe" rows="5" cols="25" placeholder="Describe Your Issue"></textarea>
+                </div>
+                <div class="inp">
+                    <a class="ds"><button type="submit">File Compalint</button></a>
+                </div>
+                <div id="data-saved">Data saved successfully</div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="js/data.js"></script>
+</body>

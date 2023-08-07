@@ -1,0 +1,155 @@
+
+#login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    background-color:#eaeff2;
+    width: 30vw;
+    height: 55vh;
+    box-shadow: 3px 3px 3px #333;
+   
+}
+#login-logo{
+    width: 60%;
+}
+.Lhead{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    font-weight: 400;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ad{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.user{
+    border: none;
+    outline: none;
+    /* background-color: ; */
+    font-family: "Roboto";
+    letter-spacing: .1rem;
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+
+}
+.inp{
+    display: flex;
+    flex-direction: column;
+    letter-spacing: .1rem;
+    font-family: "Roboto";
+    font-size: .9rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.int{
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    margin: 1rem;
+    height: 2rem;
+    padding: 1rem;
+    width: 20vw;
+    font-size: .7rem;
+}
+form{
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+legend{
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+#but{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+fieldset{
+    margin-top: 2rem;
+    padding: 2rem;
+}
+.but{
+    border: none;
+    background-color: orange;
+     padding: .2rem ;
+     width: 6vw;
+     height: 5vh;
+     /* background-color: var(--login-bg); */
+     color:#ffff ;
+     font-family: "Roboto";
+     font-size: 1rem;
+     letter-spacing: .1rem;
+     text-transform: capitalize;
+     /* border-radius: 3rem; */
+     font-weight: 600;
+ }
+ nav button:hover{
+    cursor: pointer;
+    background-color: #323330;
+    color: orange;
+}
+.stu{
+    border:none;
+    border-bottom: 2px solid black;
+    
+}
+ .stu:focus{
+     outline: none; 
+} 
+.admin:focus{
+    outline: none;
+}
+.back{
+    height: 10vh;
+    font-size: 16px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    
+    
+}
+.icn {
+    color: #959ead;
+    font-size:15px;
+}
+.hm1{
+    background:white;
+    color:#333;
+    padding:1rem;
+}
+#lgb{
+    display: none;
+    width: 100vw;
+    height: 100vh;
+}
+.lg2{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lgg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
